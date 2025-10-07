@@ -383,9 +383,9 @@ st.sidebar.write(f"{completed} / {total}（{percent}％）")
 
 st.sidebar.markdown("---")
 st.sidebar.caption("指導單位")
-moda_img = _pick_image_by_time("static/moda_light.svg", "static/moda_dark.svg")
-st.sidebar.image(moda_img, width='stretch')
-st.sidebar.image("static/ocf.svg")
+# moda_img = _pick_image_by_time("static/moda_light.svg", "static/moda_dark.svg")
+# st.sidebar.image(moda_img)
+# st.sidebar.image("static/ocf.svg")
 
 st.sidebar.markdown("---")
 st.sidebar.caption("專案與程式碼")
